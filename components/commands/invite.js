@@ -6,12 +6,8 @@ module.exports = {
 	execute(message) {
 		const exampleEmbed = new Discord.RichEmbed()
 			.setColor('#0099ff')
-			.setTitle('CoffeeBot - Invite')
-			.setURL('https://discord.js.org/')
-			.setTitle('CoffeeBot - Invite')
-			.setURL('https://discord.js.org/')
-			.setTimestamp()
-			.setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
+			.setTitle('CoffeeBot - Support Server')
+			.setURL('https://discord.gg/NKn2nqQ');
 
 		message.channel.send({ embed: exampleEmbed });
 	},

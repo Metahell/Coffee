@@ -10,6 +10,9 @@ yarn-error.log*
 package-lock.json
 yarn.lock
 
+# workspace
+vs-code
+
 # Thumbnails
 ._*
 
